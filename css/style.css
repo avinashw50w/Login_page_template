@@ -1,0 +1,201 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: ;
+	background: url('../img/pic3.jpg') center fixed;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Open Sans', 'ariel', sans-serif;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibilit !important;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.navbar {
+	background: none;
+	border: none;
+	height: 80px;
+}
+
+#brandId {
+	height: 70px;
+	width: 85px;
+	overflow: hidden;
+	transition: width 0.5s ease-in-out;
+}
+#brandId:hover {
+	width: 220px;
+}
+.navbar-brand {
+	color: #feffef !important;
+	position: relative;
+	top: 2px;
+	left: 60px;
+	font-size: 40px;
+	font-family: 'adlanta';
+	letter-spacing: 2px;
+	transition: all ease-in-out .5s;
+}
+
+.navbar-brand:hover {
+	color: rgb(134, 175, 230) !important;
+}
+
+.navbar-form {
+	position: relative;
+	top: -4px;
+}
+.navbar-form  ul li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#forgot-pass {
+	position: absolute;
+}
+#forgot-pass a {
+	font-size: 13px;
+	color: #aa3;
+	transition: all ease-in-out .3s;
+}
+#forgot-pass a:hover {
+	color: #ddd;
+}
+.navbar-form label {
+	font-weight: lighter;
+	font-size: 13px;
+}
+.navbar-form ul li input {
+
+}
+.login-btn {
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 500;
+	background: linear-gradient(to bottom, rgb(35, 143, 232), rgb(24, 34, 199));
+	border: none;
+}
+.login-btn:hover {
+	color: #fff;
+	background: rgb(27, 84, 161) !important;
+}
+.form-control {
+	color: #fff !important;
+	background: #1e1e1e;
+	opacity: 0.7;
+	border: 1px solid #777 !important;
+}
+
+.form-control:focus {
+	border: 2px solid rgb(31, 120, 163) !important;
+}
+
+::-webkit-input-placeholder{
+	color: #ccc !important;
+}
+
+.logo-div {
+	position: fixed;
+	margin-top: 20px;
+}
+
+.logo-div a {
+	color: #aaa;
+	font-weight: 400;
+}
+.logo-div a:hover {
+	color: #fff;
+}
+.register-div {
+	margin-top: 80px;
+	background-color:;
+}
+
+.register-div h1 {
+	font-weight: lighter;
+	display: flex;
+}
+
+.register-div form {
+	margin-top: 30px;
+}
+
+.avatar {
+	font-weight: 400;
+}
+
+.register-btn {
+	background: none;
+	border-radius: 50px !important;
+	border: 2px solid #fff;
+	width: 200px !important;
+	margin: auto;
+	font-size: 20px;
+	transition: all 0.3s ease-in-out;
+}
+.register-btn:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, rgb(35, 143, 232), rgb(24, 34, 199));
+}
+
+.clear10 {
+	content:"";
+	height: 10px;
+	clear: both;
+}
+
+.pad10 {
+	padding: 10px;
+}
+
+/*.login-div h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 2.5s steps(35, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}*/
+
+@media only screen and (max-width: 768px) {
+	#brandId {
+		width: 100px;
+	}
+	.navbar-brand {
+		font-size: 20px;
+		top: 0px;
+		left: 0px;
+	}
+
+	.navbar {
+		height: 50px;
+	}
+
+	.register-div {
+		margin-top: 50px;
+	}
+	.register-div h1 {
+		font-size: 28px !important;
+	}
+}
